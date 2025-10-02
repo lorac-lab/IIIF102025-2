@@ -1,0 +1,232 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://e7370103-eb0b-4e83-9699-0b1705fc0e8d",
+	"@type": "sc:Manifest",
+	"label": "IIIF Workshop 2025",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "Test Project by Carol",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "From Multiple Sources",
+	"sequences": [
+		{
+			"@id": "http://ce64b213-7c29-487c-b355-6ee49f5dcf54",
+			"@type": "sc:Sequence",
+			"label": [
+				{
+					"@value": "Normal Sequence",
+					"@language": "en"
+				}
+			],
+			"canvases": [
+				{
+					"@id": "http://1d2f9d8b-0a2e-466f-9186-aaa393577a5e",
+					"@type": "sc:Canvas",
+					"label": "Elgin Botanical Gardens",
+					"height": 4038,
+					"width": 3061,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://72b12468-efa7-4af9-8a89-f250fc993b3f",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://iiif.archive.org/image/iiif/2/elgin_botanical_gardens_1943.8.10547%2felgin_botanical_gardens_1943.8.10547.jpg/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://iiif.archive.org/image/iiif/2/elgin_botanical_gardens_1943.8.10547%2felgin_botanical_gardens_1943.8.10547.jpg",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"jpg",
+												"tif",
+												"gif",
+												"png"
+											],
+											"maxArea": 12360318,
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 4038,
+								"width": 3061
+							},
+							"on": "http://1d2f9d8b-0a2e-466f-9186-aaa393577a5e"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://6103c5ad-ec71-428f-ba71-b185b49adc67",
+					"@type": "sc:Canvas",
+					"label": "Manuscript",
+					"height": 601,
+					"width": 947,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://60eb699e-9eb0-4ac8-9182-567f12b59ad5",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://free.iiifhosting.com/iiif/f9a02a80bf76333f50ffcf0f0c17aa58f9ebf6a1510c9801bde50f565ac0a936",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 601,
+								"width": 947
+							},
+							"on": "http://6103c5ad-ec71-428f-ba71-b185b49adc67"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://896d5fd9-5811-40c5-bdfd-0892779d5f49",
+					"@type": "sc:Canvas",
+					"label": "Five Flower Studies",
+					"height": 1024,
+					"width": 821,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://596f0156-53a3-4d1d-b680-3f3d939c3ce9",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "https://mps.lib.harvard.edu/assets/images/drs:18733045/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "https://mps.lib.harvard.edu/assets/images/drs:18733045",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json",
+										{
+											"formats": [
+												"tif",
+												"jpg",
+												"gif",
+												"png"
+											],
+											"qualities": [
+												"bitonal",
+												"default",
+												"gray",
+												"color"
+											],
+											"supports": [
+												"regionByPx",
+												"sizeByW",
+												"sizeByWhListed",
+												"cors",
+												"regionSquare",
+												"sizeByDistortedWh",
+												"canonicalLinkHeader",
+												"sizeByConfinedWh",
+												"sizeByPct",
+												"jsonldMediaType",
+												"regionByPct",
+												"rotationArbitrary",
+												"sizeByH",
+												"baseUriRedirect",
+												"rotationBy90s",
+												"profileLinkHeader",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 1024,
+								"width": 821
+							},
+							"on": "http://896d5fd9-5811-40c5-bdfd-0892779d5f49"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": [
+    {
+        "@id": "http://example.org/iiif/book1/range/top",
+        "@type": "sc:Range",
+        "label": "Table of Content",
+        "viewingHint": "top",
+        "ranges": [
+            "http://example.org/iiif/book1/range/intro"
+        ]
+    },
+    {
+        "@id": "http://example.org/iiif/book1/range/intro",
+        "@type": "sc:Range",
+        "label": "Introduction",
+        "canvases": [
+            "http://ce64b213-7c29-487c-b355-6ee49f5dcf54"
+        ]
+    }
+]
+
+}
